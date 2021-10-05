@@ -54,7 +54,7 @@ def test_is_superprime():
     assert is_superprime(1) is False
 
 
-def main():
+while True:
     print("1. Determinati palindromul unui numar")
     print("2. Determinati daca un numar este superprim")
     print("x. Iesire")
@@ -73,6 +73,6 @@ def main():
         else:
             print(" nu este superprim")
     elif optiune == "x":
-        return False
+        break
     else:
         print("Optiune gresita. Incercati din nou!")
