@@ -119,11 +119,11 @@ def main():
             if get_largest_prime_below(n):
                 print(get_largest_prime_below(n))
             else:
-                print("Nu exista nr. prim mai mic ca n")
+                print("Nu exista numar prim mai mic ca m.")
         elif optiune == "x":
             break
         else:
-            print("Optiune gresita. Incercati din nou!")
+            print("Optiune gresita. Incercati din nou.")
 
 
 if __name__ == '__main__':
